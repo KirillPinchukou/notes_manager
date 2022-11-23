@@ -68,7 +68,7 @@ export default function App() {
     }
   }
   const handleonFilterNotes = (tag) => {
-    const filtered =  [...notes].filter((item) =>  tag[0] == item.tag)
+    const filtered =  [...notes].filter((item) =>  tag[0] === item.tag)
     setFilteredNotes(filtered)
     setActiveFilter(true)
   }
