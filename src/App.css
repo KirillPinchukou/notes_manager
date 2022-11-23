@@ -58,14 +58,18 @@
 }
 
 .note_item {
-  display: flex;
+  display: block;
   position: absolute;
   cursor: move;
   min-width: 215px;
-  color: black;
   padding: 1em;
   border-radius: 8px;
 }
+.note_data {
+  color: black;
+
+}
+
 
 .delete_button {
   position: absolute;
@@ -73,13 +77,6 @@
   top: 5px;
   background: none;
   border: none;
-}
-
-.hashtag {
-    left: 7px;
-    bottom: 15px;
-    background: none;
-    color: blue;
 }
 
 .delete_button:hover {
@@ -93,7 +90,6 @@
   border: 1px solid gray;;
 }
 .note_tag {
-  bottom: 1px;
   color: blue;
 }
 

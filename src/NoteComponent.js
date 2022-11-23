@@ -19,10 +19,12 @@ export default function NoteComponent({item, onDeleteNote, onPositionChange}) {
         }
       >
         <div className="note_item" style={{backgroundColor: item.color}}>
+          <div className='note_data'>
           {item.note}
           <button className='delete_button' onClick={() => deleteNote(item.id)}>
           x
-        </button>
+          </button>
+          </div>
         <div className='note_tag'>{item.tag}</div>
         </div>  
       </Draggable>
