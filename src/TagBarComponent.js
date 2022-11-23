@@ -4,18 +4,18 @@ export default function TagBarComponent({tag, onFilterNotes, onDeleteTag}) {
     const filterNotes = (tag) => {
         onFilterNotes(tag)
       }
-      
+
     const deleteTag = (tag) => {
         onDeleteTag(tag)
     }    
 
     return (
-        <div >
-            <a
-             className='tag'
+        <div>
+            <button
+             className='tag_button'
              onClick={(e) => filterNotes(tag)}>
-             |{tag}|
-            </a>   
+             {tag}
+            </button>   
             <button onClick={() => deleteTag(tag)}>X</button>     
         </div>
     )

@@ -86,9 +86,11 @@
   color: black;
   cursor: pointer;
 }
-.tag {
-  margin-left: 25px;
+.tag_button {
+  margin: 5px 5px;
   color: white;
+  background: none;
+  border: 1px solid gray;;
 }
 .note_tag {
   bottom: 1px;
