@@ -4,6 +4,7 @@ export default function TagBarComponent({tag, onFilterNotes, onDeleteTag}) {
     const filterNotes = (tag) => {
         onFilterNotes(tag)
       }
+      
     const deleteTag = (tag) => {
         onDeleteTag(tag)
     }    
