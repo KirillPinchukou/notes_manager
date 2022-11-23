@@ -1,0 +1,108 @@
+.wrapper {
+  display: block;
+  justify-content: center;
+  padding-top: 50px;
+  min-height: 100vh;
+  width: 100%;
+  background: #222222;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 30px;
+}
+.sidebar {
+  display: block;
+  padding-left: 20px;
+  border: 1px solid gray;
+  width: 15%;
+}
+
+.note_input {
+  display: block;
+  height:30px;
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid gray;
+  color: white;
+  background: none;
+  padding: 0 10px; 
+  outline: none;
+}
+.search_tag {
+  height:30px;
+  width: 200px;
+  border: none;
+  border-bottom: 1px solid gray;
+  color: white;
+  background: none; 
+  outline: none;
+}
+
+.submit {
+  width: 100px;
+  height: 30px;
+  background: rgb(36, 167, 64);
+  color: white;
+  border: 1px solid gray;
+  margin-left: 10px;
+  font-size: 20px;
+
+}
+.submit:hover {
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.note_item {
+  display: flex;
+  position: absolute;
+  cursor: move;
+  min-width: 215px;
+  color: black;
+  padding: 1em;
+  border-radius: 8px;
+}
+
+.delete_button {
+  position: absolute;
+  right: 7px;
+  top: 5px;
+  background: none;
+  border: none;
+}
+
+.hashtag {
+    left: 7px;
+    bottom: 15px;
+    background: none;
+    color: blue;
+}
+
+.delete_button:hover {
+  color: black;
+  cursor: pointer;
+}
+.tag {
+  margin-left: 25px;
+  color: white;
+}
+.note_tag {
+  bottom: 1px;
+  color: blue;
+}
+
+.tag_wrapper {
+  display: flex;
+  padding-top: 40px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid gray;
+}
+.tag_list {
+  display: flex;
+}
